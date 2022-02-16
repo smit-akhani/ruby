@@ -1,0 +1,6 @@
+Q. ruby file_copy.rb < sometext.txt > everything.txt
+   why above command first started writing from sometext.txt into file_copy.rb
+   and not directly writing to everything.txt
+A.
+   In above command sometext.txt file is given as input to file_copy.rb (file_copy.rb < sometext.txt)
+   and then file_copy.rb file processes it and writes output to everything.txt (file_copy.rb > everything.txt)

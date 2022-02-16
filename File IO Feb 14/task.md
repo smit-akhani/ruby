@@ -5,7 +5,7 @@
 - Feb 14
 
 **Assigned by**
-- Urmit Prajapat
+- Urmit Prajapati
  
 **Tasks**<br/>
 **Q.1** Why readlines was not printing \n?<br/>
