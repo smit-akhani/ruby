@@ -1,0 +1,15 @@
+Topics:
+- Strings and it's methods
+- Percent strings
+- Symbols
+- Difference between strings and symbols
+
+Date:
+- Feb 16
+
+Assigned by:
+- Shreya Mundra
+
+Tasks:
+1. Play with strings and use different methods on it.
+2. Which should we prefer strings and symbols ? and why ?
