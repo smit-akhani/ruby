@@ -1,0 +1,13 @@
+Topics:
+- Functions
+- Variables and its scope
+
+Date:
+- Feb 17
+
+Assigned by:
+- Swati Chauhan
+
+Tasks:
+1. Write example of each type of argument passing
+2. Write example that demonstrate type of variable
