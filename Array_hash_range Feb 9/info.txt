@@ -1,0 +1,16 @@
+Topics:
+- Array
+- Hash
+- Range
+
+Date:
+- Feb 9
+
+Assigned by:
+- Swati Chauhan
+
+Tasks:
+1. Example of each array method
+2. Example of each hash method
+3. Example of each range method
+4. Convert multi dim array in single dimension but without using a flatten method
