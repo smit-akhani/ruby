@@ -8,15 +8,18 @@ Explanation: numbers[0] + numbers[2] = 13
 
 =end
 
-num = [2,7,11,15]
-result = 13
-output_arr = []
-
-(num.length-1).times do |i|
-    (num.length-1).times do |j|
-        if num[i] + num[j+1] == result
-            output_arr.push(i,j+1)
+def myFun(num,result)
+    output_arr = []
+    (num.length-1).times do |i|
+        (num.length-1).times do |j|
+            if num[i] + num[j+1] == result
+                output_arr.push(i,j+1)
+            end
         end
     end
+    return output_arr
 end
-print output_arr
+
+num = [2,7,11,15]
+result = 13
+print myFun(num,result)

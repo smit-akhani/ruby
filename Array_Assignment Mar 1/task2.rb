@@ -1,9 +1,20 @@
 =begin
 
-Given an array of numbers and a result, return indices of the two numbers such that they sum to the result.
-
-Input: numbers = [2,7,11,15], result = 13
-Expected output: [0,2]
-Explanation: numbers[0] + numbers[2] = 13
+Given a number n, return true if n is palindrome.
 
 =end
+
+def myFun(num)
+    return false if num < 0
+    rem=0
+    rev=0
+    org=num
+    while num != 0
+        rem = num%10
+        rev = rev*10 + rem
+        num = num/10
+    end
+    return rev!=org ? false : true
+end
+
+puts myFun(121)
