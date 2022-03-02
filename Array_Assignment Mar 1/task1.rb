@@ -14,6 +14,7 @@ def myFun(num,result)
         (num.length-1).times do |j|
             if num[i] + num[j+1] == result
                 output_arr.push(i,j+1)
+                return output_arr
             end
         end
     end
