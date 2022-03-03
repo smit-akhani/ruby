@@ -1,0 +1,20 @@
+Topics:
+- Modules
+- Classes
+- Methods
+- Include
+- Extends
+- Object hierarchy
+- Overloading
+- Overriding
+
+Date:
+- Feb 7
+
+Assigned by:
+- Akash Pande
+
+Tasks:
+1. Determine why multiple inheritance is not supported in ruby(what is mixin)
+2. Try to create classes and modules, check difference between them
+3. Determine all the characteristics of Module
