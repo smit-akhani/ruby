@@ -10,7 +10,7 @@ Expected output: "comminacituon"
 def reverseVowel(str)
     index = []
     str.chars.each_with_index do |c,k|
-        if "aeiou".include?(c)
+        if "aeiouAEIOU".include?(c)
             index.push(k)
         end
     end
